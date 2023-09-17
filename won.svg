@@ -11,6 +11,6 @@
     </linearGradient>
   </defs>
 
- <circle cx="20" cy="20" r="20" fill="url(#grad1)" />
+ <circle cx="24" cy="24" r="24" fill="url(#grad1)" />
  
 </svg>
