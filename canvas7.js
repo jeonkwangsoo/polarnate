@@ -1,7 +1,7 @@
 //
 //   canvas7.js
 //
-function button6clicked() {
+function button7clicked() {
 	
 const canvas7 = document.getElementById("canvas7");
 const context7 = canvas7.getContext("2d");
@@ -40,4 +40,4 @@ function context7act() {
 }
 init();
 }
-addEventListener("load",button6clicked);
+addEventListener("load",button7clicked);
