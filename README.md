@@ -1,5 +1,5 @@
 # polarnate
-Animation with javascript to make roses in polar coordinates
+Animations with javascript.
 
 I was a web developer in south Korea.
 But now I am working another.
