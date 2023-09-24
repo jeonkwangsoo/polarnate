@@ -5,112 +5,41 @@
 <head>
   
 <title>Polar Coordinate</title>
-<link rel="icon" type="image/x-icon" href="https://jeonkwangsoo.github.io/polarnate/won.svg">
+<link rel="icon" type="image/x-icon" href="won.svg">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keyword" content="HTML,CSS,Javascript,front-end">
 <meta name="description" content="trigonometry in Javascript">
 <meta name="web-developer" content="jeonkwangsoo">
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="mq.css">
+<link rel="stylesheet" href="canvas.css">
 
 <!------------------------- style start  --------------------->
 
 <style>
-nav {
-  display: grid;
-  grid-template-columns: auto 10.4% 80%;
-  background-color: gray;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+
+* {
+  box-sizing: border-box;
 }
-nav a {
-  text-decoration: none;
-  background-color: lightgray;
-  padding: 20px;
-  width: 100px;
-  text-align: center;
-}
-#anchor1 {
-  border-top-left-radius: 20px;
-}
-#anchor2 {
-  margin-left: 5px;
-}
-nav a:link {
-  color: black;
-}
-nav a:visited {
-  color: black;
-}
-nav a:hover {
-   background-color: rgb(255,255,210);
-}
-nav a:active {
-  color: red;
-}
-.section1 {
-  display: grid;
-  grid-template-columns: auto auto;
+section {
   margin-top: 20px;
-  padding-top: 20px;
-  padding-left: 100px;
 }
-.section2 {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  margin-top: 60px;
-  margin-left: 50px;
-  padding-left: 50px;
-}
-canvas {
-  border: 1px solid blue;
-  margin: 20px;
-}
-.buttonc {
-  width: 200px;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  margin-left: 20px;
-  color: darkblue;
-  background-image: linear-gradient(to right,lightgray,white,lightgray);
-}
-.buttonc:hover {
-  background-image: linear-gradient(to right,lightgray,white,white,white,lightgray);
-}
-footer {
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-  background-color: rgb(100,100,100);
-  color: white;
-  margin-top: 50px;
-  padding: 20px;
-}
-#won {
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  margin-left: 20px;
-  background-image: linear-gradient(red,blue);
-}
-#wonanchor {
-  text-decoration: none;
-  color: white;
-}
-
-
 </style>
 
 <!-------------------------  body start  --------------------->
 
 <body>
-<h1 style="text-align: center">Polar Coordinate 2</h1><br>
+<h1 style="text-align: center">Polar Coordinate 2</h1>
 <nav>
-  <a href="index.html" id="anchor1">HOME</a>
-  <a href="polar1.html" id="anchor2">POLAR1</a>
-  <a href="polar2.html" id="anchor3">POLAR2</a>
+  <button id="home" onclick="buttonhome()">HOME</button>
+  <button id="polar1" onclick="buttonpolar1()">POLAR1</button>
+  <button id="polar2" onclick="buttonpolar2()">POLAR2</button>
+  <div></div>
 </nav>
 <section class="section1">
-  <img src="rose3.png" alt="rose3.png" title="774X217 png mathworld"/>
+  <img src="rose3.png" alt="rose3.png" title="774X217 png mathworld">
 </section>
 <section class="section2">
   <div>
@@ -127,37 +56,41 @@ footer {
   </div>
 
 </section>
+
 <footer>
-  <table><tr><td>
-   <div id="won"></div>
-   </td><td>   
-	<a id="wonanchor" href="https://jeonkwangsoo.github.io/polarnate/" target="_black">
-	https://jeonkwangsoo.github.io/polarnate/index.html
-	</a></td></tr>
-  </table>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: yellow">&#9993;</span>
+    <a href="mailto:nirvana2code@gmail" style="text-decoration: none; color: white;">nirvana2code@gmail.com</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: yellow">&#9993;</span>
+    <a href="mailto: jeonkwangsoo@naver" style="text-decoration: none; color: white;">jeonkwangsoo@naver.com</a><br>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;copyright <span style="color: yellow">&copy;</span> jeonkwangsoo  All rights reserved</p>
+	<div id="woncontainer">
+      <div id="won"></div>   
+	  <a id="wonanchor"href="https://jeonkwangsoo.github.io/polarnate/index.html" target="_black">
+	     https://jeonkwangsoo.github.io/polanate/index.html
+	  </a>
+     </div>
+   </div> 
   <div id="authorinfo" style="padding-left: 30px;">
-    Reference  : <br>
+    <p>Reference  :</p>
 	<span style="color: red;">&hearts;</span>&nbsp;&nbsp;&nbsp;<a href="http://mathworld.wolfram.com/Rose.html" target="_blank" style="color: white;text-decoration:none;">http://mathworld.wolfram.com/Rose.html </a><br>
 	<span style="color: red;">&hearts;</span>&nbsp;&nbsp;&nbsp;<a href="http://www.nabla.hr/PC-RectPolarCooSys4.htm" target="_blank" style="color: white;text-decoration:none;">http://www.nabla.hr/PC-RectPolarCooSys4.htm</a><br>
 	<span style="color: red;">&hearts;</span>&nbsp;&nbsp;&nbsp;<a href="https://www.w3schools.com" target="_blank" style="color: white;text-decoration:none;">https://www.w3schools.com</a><br>
-	<span style="color: red;">&hearts;</span>&nbsp;&nbsp;&nbsp;<a href="https://www.newworldencyclopedia.org" target="_blank" style="color: white;text-decoration:none;">https://www.newworldencyclopedia.org</a><br><br>
-    <span style="color: yellow">&#9993;</span>
-    <a href="mailto:nirvana2code@gmail" style="text-decoration: none; color: white;">nirvana2code@gmail.com</a><br>
-	<span style="color: yellow">&#9993;</span>
-    <a href="mailto: jeonkwangsoo@naver" style="text-decoration: none; color: white;">jeonkwangsoo@naver.com</a><br><br>
-	copyright <span style="color: yellow">&copy;</span> jeonkwangsoo  All rights reserved<br><br>
+	<span style="color: red;">&hearts;</span>&nbsp;&nbsp;&nbsp;<a href="https://www.newworldencyclopedia.org" target="_blank" style="color: white;text-decoration:none;">https://www.newworldencyclopedia.org</a>
   </div>
   <div id="wininfo" style="padding-left: 50px;"></div>
 
 </footer>
 <!------------------------  script start  ----------------------->
 
+<script src="canvas5.js"></script>
+<script src="canvas6.js"></script>
+<script src="canvas7.js"></script>
+<script src="nav.js"></script>
 <script>
-
 const wininfo = document.getElementById("wininfo");
-
-
 function win() {
+  wininfo.style = "margin-top: 20px; margin-left: 40px;";
   wininfo.innerHTML = "window.innerWidth : " + window.innerWidth + "<br>" +
                        "window.innerHeight : " + window.innerHeight + "<br>" +
                        "window.outerWidth : " + window.outerWidth + "<br>" +
@@ -170,11 +103,7 @@ function win() {
 					   "window.screen.picelDepth : " + window.screen.pixelDepth;
 }
 win();
-
 </script>
-<script src="canvas5.js"></script>
-<script src="canvas6.js"></script>
-<script src="canvas7.js"></script>
 <noscript>Sorry, your browser does not support JavaScript!</noscript>
 
 </body>

@@ -1,0 +1,24 @@
+footer {
+  background-color: rgb(100,100,100);
+  color: white;
+  margin-top: 10px;
+  padding: 20px;
+}
+#won {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-image: linear-gradient(red,blue);
+}
+#wonanchor {
+  text-decoration: none;
+  color: white;
+}
+#woncontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(100,100,100);
+  justify-content: start;
+  gap: 10px;
+}

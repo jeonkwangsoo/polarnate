@@ -1,0 +1,19 @@
+canvas {
+  border: 1px solid blue;
+  margin-left: 10px;
+}
+.buttonc {
+  width: 200px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: darkblue;
+  background-image: linear-gradient(to right,lightgray,white,lightgray);
+}
+.buttonc:hover {
+  background-image: linear-gradient(to right,lightgray,white,white,white,lightgray);
+}
+.buttonc:active {
+  background-image: linear-gradient(to right,lightgray,lightgray);
+}
