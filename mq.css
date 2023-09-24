@@ -1,7 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
      img { width: 95%; }
-	 footer { font-size: 90%; }
+	 footer { font-size: 90%; padding-left: 0; }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -9,11 +9,12 @@
         .section1 {
 		display: grid;
 		grid-template-columns: auto;
-	}
+	   }
 	   .section2 {
 		display: grid;
 		grid-template-columns: auto auto;	   
 	   }
+        #rose3 { width: 90%; }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -22,7 +23,9 @@
 	footer {
 		display: grid;
 		grid-template-columns: auto auto;
-	}
+	}  
+		   
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
