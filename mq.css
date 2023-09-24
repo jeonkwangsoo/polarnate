@@ -1,6 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
      #imgpolar { width: 70%; height: 70% }
+	 img { width: 80%; }
 	 footer { font-size: 90%; padding-left: 0; }
 }
 
