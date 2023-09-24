@@ -19,5 +19,5 @@ footer {
   grid-template-columns: auto auto;
   background-color: rgb(100,100,100);
   justify-content: start;
-  gap: 5px;
+  padding: 0;
 }
