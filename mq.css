@@ -1,7 +1,8 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-     #imgpolar { width: 70%; height: 70% }
-	 img { width: 80%; }
+     #polarpng { width: 50%; height: 50%; }
+	 #rose1png { width: 80%; height: 80%; }
+	 #rose3png { width: 80%; height: 80%; }
 	 footer { font-size: 90%; padding-left: 0; }
 }
 
@@ -15,8 +16,9 @@
 		display: grid;
 		grid-template-columns: auto auto;	   
 	   }
-        img { width: 80%; height: 80%; }
-		#imgpolar { width: 70%; height: 70% } 
+        #polarpng { width: 50%; height: 50%; }
+		#rose1png { width: 90%; height: 90% } 
+		#rose3png { width: 90%; height: 90%; }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -30,7 +32,7 @@
          display: grid;
 		 grid-template-columns: auto auto auto;
 	}	
-
+    #polarpng { width: 50%; height: 50%; }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
