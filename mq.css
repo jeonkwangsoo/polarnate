@@ -24,7 +24,10 @@
 		display: grid;
 		grid-template-columns: auto auto;
 	}  
-		   
+	.section2 { 
+         display: grid;
+		 grid-template-columns: auto auto auto;
+	}	
 
 }
 
