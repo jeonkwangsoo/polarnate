@@ -1,6 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-     img { width: 95%; }
+     #imgpolar { width: 70%; height: 70% }
 	 footer { font-size: 90%; padding-left: 0; }
 }
 
@@ -14,7 +14,8 @@
 		display: grid;
 		grid-template-columns: auto auto;	   
 	   }
-        img { width: 90%; }
+        img { width: 80%; height: 80%; }
+		#imgpolar { width: 70%; height: 70% } 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
