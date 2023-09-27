@@ -1,7 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
    img { width: 100%;height: 100%; }
-   section { text-aling: center; }
+   section { text-align: center; }
    .section2 { width: 100%; }
    footer { grid-template-columns: auto; }
 }
