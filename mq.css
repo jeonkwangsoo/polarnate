@@ -1,16 +1,26 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
    img { width: 100%;height: 100%; }
-   .section2 { display: grid; grid-template-columns: auto auto; }
+   .section2 { 
+     display: grid;
+	 grid-template-columns: auto auto;
+     justify-content: start;
+	 gap: 0px;
+	 }
    footer { grid-template-columns: auto; }
-   nav,footer,section { width: 100%; }
+   nav,footer { width: 100%; }
    body { font-size: 0.8em; }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
    img { width: 100%;height: 100%; }
-   .section2 { display: grid; grid-template-columns: auto auto; }
+   .section2 { 
+     display: grid;
+	 grid-template-columns: auto auto;
+     justify-content: start;
+	 gap: 0px;
+	 }
    footer { grid-template-columns: auto; }
 }
 
