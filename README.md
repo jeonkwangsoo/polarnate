@@ -1,7 +1,8 @@
 # polarnate
 Animations with javascript.
 
-I was a web developer in south Korea.
+Since 1968,Man,South Korea.
+I was a web developer.
 But now I am working another.
 Web building in front-end is my favorite hobby.
 I enjoy making animations of roses in polar coordinates,javascipt.
