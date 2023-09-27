@@ -4,6 +4,7 @@
    section { text-align: center; }
    .section2 { width: 100%; }
    footer { grid-template-columns: auto; }
+   nav,footer,section { width: 100%; }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
