@@ -7,3 +7,6 @@ function buttonpolar1() {
 function buttonpolar2() {
   document.location.href = "polar2.html";
 }
+function buttonpolar3() {
+  document.location.href = "polar3.html";
+}

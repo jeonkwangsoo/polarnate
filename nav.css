@@ -1,6 +1,6 @@
 nav {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   background-color: gray;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;

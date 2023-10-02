@@ -27,34 +27,61 @@ section {
   margin-top: 20px;
   width: 100%;
 }
-
+.section1 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
 </style>
 
 <!-------------------------  body start  --------------------->
 
 <body>
-<h1 style="text-align: center">Polar Coordinate 2</h1>
+<h1 style="text-align:center;">Polar Coordinate 3</h1>
+
 <nav>
   <button id="home" onclick="buttonhome()">HOME</button>
   <button id="polar1" onclick="buttonpolar1()">POLAR1</button>
   <button id="polar2" onclick="buttonpolar2()">POLAR2</button>
   <button id="polar3" onclick="buttonpolar3()">POLAR3</button>
 </nav>
-<section class="section1">
-  <img id="rose3png" src="rose3.png" id="rose3" alt="rose3.png"  title="774X217 png mathworld">
-</section>
+
+
+  <div class="div1" style="text-align: left;">
+    <img id="rose2png" src="rose2.png" width="600px" height="200px" alt="rose2.png" title="400x200 rose2.png">
+  </div>
+
 <section class="section2">
   <div>
-    <canvas id="canvas5" width="200" height="200"></canvas><br>
-	<button class="buttonc" id="button5" onclick="button5clicked()">REPLAY</button>
+    <canvas id="canvas8" width="200" height="200"></canvas><br>
+	<button class="buttonc" id="button8" onclick="button8clicked()">REPLAY</button>
   </div>
   <div>
-    <canvas id="canvas6" width="200" height="200"></canvas><br>
-		<button class="buttonc" id="button6" onclick="button6clicked()">REPLAY</button>
+    <canvas id="canvas9" width="200" height="200"></canvas><br>
+		<button class="buttonc" id="button9" onclick="button9clicked()">REPLAY</button>
   </div>
   <div>
-    <canvas id="canvas7" width="200" height="200"></canvas><br>
-		<button class="buttonc" id="button7" onclick="button7clicked()">REPLAY</button>
+    <canvas id="canvas10" width="200" height="200"></canvas><br>
+		<button class="buttonc" id="button10" onclick="button10clicked()">REPLAY</button>
+  </div>
+  <div>
+   <canvas id="canvas11" width="200" height="200"></canvas><br>
+	<button class="buttonc" id="button11" onclick="button11clicked()">REPLAY</button>   
+  </div>
+  <div>
+    <canvas id="canvas12" width="200" height="200"></canvas><br>
+	<button class="buttonc" id="button12" onclick="button12clicked()">REPLAY</button>
+  </div>
+  <div>
+    <canvas id="canvas13" width="200" height="200"></canvas><br>
+		<button class="buttonc" id="button13" onclick="button13clicked()">REPLAY</button>
+  </div>
+  <div>
+    <canvas id="canvas14" width="200" height="200"></canvas><br>
+		<button class="buttonc" id="button14" onclick="button14clicked()">REPLAY</button>
+  </div>
+  <div>
+   <canvas id="canvas15" width="200" height="200"></canvas><br>
+	<button class="buttonc" id="button15" onclick="button15clicked()">REPLAY</button>   
   </div>
 
 </section>
@@ -83,12 +110,20 @@ section {
   <div id="wininfo" style="padding-left: 50px;"></div>
 
 </footer>
+<br><br>
+
 <!------------------------  script start  ----------------------->
 
-<script src="canvas5.js"></script>
-<script src="canvas6.js"></script>
-<script src="canvas7.js"></script>
+<script src="mq.css"></script>
 <script src="nav.js"></script>
+<script src="canvas8.js"></script>
+<script src="canvas9.js"></script>
+<script src="canvas10.js"></script>
+<script src="canvas11.js"></script>
+<script src="canvas12.js"></script>
+<script src="canvas13.js"></script>
+<script src="canvas14.js"></script>
+<script src="canvas15.js"></script>
 <script>
 const wininfo = document.getElementById("wininfo");
 function win() {
